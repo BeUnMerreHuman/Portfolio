@@ -10,9 +10,9 @@
             My Portfolio Website 
         </span>
         <br/> 
-        <a href="https://devongifford.vercel.app/">
+        <a href="https://beunmerrehuman.vercel.app/">
             <span>
-                https://devongifford.vercel.app/
+                https://beunmerrehuman.vercel.app/
             </span>
         </a>
     </h3>
@@ -26,15 +26,8 @@
 </p>
 
 <br/>
-<br/>
-
-
-<br/>
-
 ### 🙏 Acknowledgements
 
 ---
 This portfolio was forked from [DevonGifford](https://github.com/DevonGifford/Portfolio_v2) inspired by the [v4 version of Brittany Chiang’s site](https://v4.brittanychiang.com/), which remains a standout in developer portfolio design. I adapted the portfolio for my Profile.
-
-
 <br/>
