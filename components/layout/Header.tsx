@@ -31,7 +31,7 @@ export default function Header() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.2 }}
         >
           <a href="#home" className="hover:animate-spin">
             <Image

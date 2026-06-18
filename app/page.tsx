@@ -3,12 +3,14 @@ import LeftSide from "@/components/layout/LeftSide";
 import Banner from "@/components/sections/Banner";
 import About from "@/components/sections/About";
 import Experience from "@/components/sections/Experience";
+import Projects from "@/components/sections/Projects";
+import Certifications from "@/components/sections/Certifications";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/layout/Footer";
 import RightSide from "@/components/layout/RightSide";
 
 import type { Metadata } from "next";
-import Projects from "@/components/sections/Projects";
+
 
 export const metadata: Metadata = {
   title: "Muneeb Ur Rehman Siddiqui",
@@ -31,6 +33,7 @@ export default function HomePage() {
           <About />
           <Experience />
           <Projects />
+          <Certifications />
           <Contact />
           <Footer />
         </div>

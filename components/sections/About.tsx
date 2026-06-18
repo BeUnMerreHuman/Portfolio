@@ -101,7 +101,7 @@ const About = () => {
   return (
     <section id="about" className="mx-auto flex min-h-screen max-w-containerSmall flex-col justify-center gap-8 py-24 mdl:px-10 lgl:py-32">
       <div className="flex items-center gap-10 pt-20 sml:pt-5">
-        <SectionTitle titleNumber="0.1" titleName="About me" />
+        <SectionTitle titleNumber="01" titleName="About me" />
       </div>
 
       {/* CONTENT CONTAINER - GRID */}
@@ -163,7 +163,7 @@ const About = () => {
             <Image
               className="fill absolute z-30 h-52 w-52 rounded-full border-2 border-textGreen object-cover lgl:h-80 lgl:w-80"
               src={profileImgCircle}
-              alt="Devon Gifford - Profile picture"
+              alt="Muneeb Ur Rehman Siddiqui - Profile picture"
             />
             <div className="absolute left-0 top-0 z-30 hidden h-52 w-52 rounded-full bg-textGreen/20 duration-300 group-hover:bg-transparent mdl:inline-block lgl:h-80 lgl:w-80" />
             <div className="absolute left-6 top-6 z-10 hidden h-52 w-52 rounded-full border-2 border-textGreen transition-transform duration-100 group-hover:-translate-x-6 group-hover:-translate-y-6 mdl:inline-block lgl:h-80 lgl:w-80" />

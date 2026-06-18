@@ -8,7 +8,8 @@ const navItems = [
   { id: "about", label: "About", index: "01." },
   { id: "Experience", label: "Experience", index: "02." },
   { id: "Projects", label: "Projects", index: "03." },
-  { id: "contact", label: "Contact", index: "04." },
+  { id: "Certifications", label: "Certifications", index: "04." },
+  { id: "contact", label: "Contact", index: "05." },
 ];
 
 export default function NavLinkList({
