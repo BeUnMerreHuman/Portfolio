@@ -32,7 +32,7 @@ const Projects = () => {
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-6 lgl:px-10">
           {miniProjectsEntries
-            .slice(0, showMore ? undefined : 6)
+            .slice(0, showMore ? undefined : 3)
             .map((project: MiniProjectEntry, i) => (
               <MiniCard key={i} {...project} />
             ))}

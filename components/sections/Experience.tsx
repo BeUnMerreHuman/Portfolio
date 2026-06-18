@@ -13,18 +13,24 @@ const Experience = () => {
     <section id="Experience" className="mx-auto flex min-h-screen max-w-containerSmall flex-col justify-center gap-5 py-24 lgl:py-32">
       <SectionTitle titleName="Where I have worked" titleNumber="02" />
 
-      <div className="mt-5 flex h-fit w-full flex-col gap-4 sml:flex-row">
+      <div className="mt-5 flex w-full flex-col gap-8 sml:flex-row sml:gap-4">
+        
         {/* Sidebar */}
-        <div className="flex h-[fit-content] w-[fit-content] sml:flex-col">
-          <ul className="max-sml:no-scrollbar flex whitespace-nowrap max-sml:w-6/12 max-sml:overflow-x-scroll sml:h-auto sml:flex-col">
+        <div className="w-full sml:w-[fit-content]">
+          {/* 
+            Mobile: Full width, horizontal flex, x-scrollable 
+            Desktop (sml): Auto width, vertical flex
+          */}
+          <ul className="flex w-full overflow-x-auto whitespace-nowrap sml:w-auto sml:flex-col sml:overflow-visible scrollbar-hide">
             {jobEntries.map(({ key, label, sub }) => (
               <li
                 key={key}
                 onClick={() => setActiveTab(key)}
-                className={`cursor-pointer border-l-2 bg-transparent px-8 py-3 text-xs font-medium duration-300 hover:bg-[#112240] md:text-sm ${
+                className={`cursor-pointer bg-transparent px-8 py-3 text-xs font-medium duration-300 hover:bg-[#112240] md:text-sm 
+                border-b-2 sml:border-b-0 sml:border-l-2 ${
                   activeTab === key
-                    ? "border-l-textGreen text-textGreen"
-                    : "border-l-hoverColor text-textDark"
+                    ? "border-textGreen text-textGreen"
+                    : "border-hoverColor text-textDark"
                 }`}
               >
                 <strong>{label}</strong>
