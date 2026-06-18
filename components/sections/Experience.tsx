@@ -6,14 +6,11 @@ import ExperienceEntry from "./experiences/ExperienceEntry";
 import jobEntries, { JobTabKey } from "./experiences/jobEntries";
 
 const Experience = () => {
-  const [activeTab, setActiveTab] = useState<JobTabKey>("tuvLead");
+  const [activeTab, setActiveTab] = useState<JobTabKey>("artsTeamHead");
   const activeEntry = jobEntries.find((entry) => entry.key === activeTab)!;
 
   return (
-    <section
-      id="Experience"
-      className="mx-auto flex min-h-screen max-w-containerSmall flex-col justify-center gap-5 py-96 lgl:py-32"
-    >
+    <section id="Experience" className="mx-auto flex min-h-screen max-w-containerSmall flex-col justify-center gap-5 py-24 lgl:py-32">
       <SectionTitle titleName="Where I have worked" titleNumber="02" />
 
       <div className="mt-5 flex h-fit w-full flex-col gap-4 sml:flex-row">

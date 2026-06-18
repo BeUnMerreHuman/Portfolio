@@ -8,132 +8,76 @@ export type MiniProjectEntry = {
 
 const miniProjectsEntries: MiniProjectEntry[] = [
   {
-    title: "FlipDish",
+    title: "Low-Shot Color Classifier",
     description:
-      "Frontend Technical Assessment: Implement server-side data fetching to present JSON data as a restaurant menu, including some sneaky twists.",
-    gitLink: "https://github.com/DevonGifford/Menu--TechnicalAssignment",
-    liveLink: "https://menu-technical-assignment.vercel.app/",
-    listItems: ["API", "NextJs", "TypeScript", "Vitest"],
+      "An end-to-end pipeline for low-shot image classification, designed to bridge the gap between manual data collection, data cleaning and deep learning. ",
+    gitLink: "https://github.com/BeUnMerreHuman/Low-Shot-Color-Classifier",
+    liveLink: "https://github.com/BeUnMerreHuman/Low-Shot-Color-Classifier",
+    listItems: ["AppSheet", "PyQt6", "Tensorflow"],
   },
   {
-    title: "NextLane",
+    title: "LLM Style Transfer ",
     description:
-      "Backend Technical Assessment: My solution for implementing a client-side caching layer, using JavaScript as requested.",
-    gitLink: "https://github.com/DevonGifford/NextLane",
-    liveLink: "https://github.com/DevonGifford/NextLane",
-    listItems: ["Backend", "ttl-cache", "JavaScript"],
+      "Fine-tuned an open-source LLM using QLoRA to emulate Gollum's speech patterns, vocabulary, and conversational style from The Lord of the Rings",
+    gitLink: "https://www.kaggle.com/code/muneeburrehman98/qwen3-qlora",
+    liveLink: "https://colab.research.google.com/drive/1gkIefC7x8_LDxZyI3-3oAUhBeTAoFUdc",
+    listItems: ["Unsloth", "ChromaDB", "Langchain"],
   },
   {
-    title: "InCard",
+    title: "Anime Character Dataset",
     description:
-      "Frontend Technical Assessment: Develop a web application that demonstrates authentication functionality using JWT tokens.",
-    gitLink: "https://github.com/DevonGifford/InCard",
-    liveLink: "https://incard-technical-assaignment-devon-gifford.vercel.app/",
-    listItems: ["NextJS", "TypeScript", "Jest", "NextAuth"],
+      "Created a dataset containing about 15000 anime images sourced from Danbooru, annotated in COCO format for training character detection models.",
+    gitLink: "https://github.com/BeUnMerreHuman/Anime-COCO-Pipeline",
+    liveLink: "https://www.kaggle.com/datasets/muneeburrehman98/danbooru-annotated-images",
+    listItems: ["OpenCV", "ONNX", "Kaggle"],
   },
   {
-    title: "Restful API",
+    title: "Karachi Navigator",
     description:
-      "Simple and efficient way to handle HTTP requests and interact with a MongoDB database, following modern and best practices.",
-    gitLink: "https://github.com/DevonGifford/modern-restful-API",
-    liveLink: "https://github.com/DevonGifford/modern-restful-API",
-    listItems: ["TypeScript", "Express", "MongoDB"],
+      "Karachi-Navigator is a standalone, high-performance navigation engine designed specifically for Karachi’s road network.",
+    gitLink: "https://github.com/BeUnMerreHuman/Karachi-Navigator",
+    liveLink: "https://karachi-navigator.onrender.com/",
+    listItems: ["GeoJSON", "NetworkX", "FastAPI"],
   },
   {
-    title: "Devotion",
+    title: "Few-Shot Vision Dataset",
     description:
-      "A fullstack web application designed to replicate the seamless functionality of Notion, utilizing real-time database & recursive components.",
-    gitLink: "https://github.com/DevonGifford/Devotion",
-    liveLink: "https://devotion-portfolioproject.vercel.app/",
-    listItems: ["NextJs", "TypeScript", "Convex", "Zustand"],
+      "Curated images from the One Piece universe, designed for few-shot learning, character recognition, and computer vision tasks.",
+    gitLink: "https://www.kaggle.com/datasets/muneeburrehman98/one-piece-character-images",
+    liveLink: "https://www.kaggle.com/datasets/muneeburrehman98/one-piece-character-images",
+    listItems: ["Playwright", "PyQt6", "Kaggle"],
   },
   {
-    title: "BulkBasics",
+    title: "BU Student Rulebook",
     description:
-      "A fullstack e-commerce platform focusing on business logic and functionality, integrating various technologies.",
-    gitLink: "https://github.com/DevonGifford/BulkBasics",
-    liveLink: "https://bulk-basics.netlify.app/",
-    listItems: ["Vite", "TypeScript", "Stripe", "Redux"],
+      "A structured JSON transformation of the Bahria University Student Rulebook for Retrieval-Augmented Generation pipelines.",
+    gitLink: "https://www.kaggle.com/datasets/muneeburrehman98/bu-student-rulebook-spring-2025-structured-json",
+    liveLink: "https://www.kaggle.com/datasets/muneeburrehman98/bu-student-rulebook-spring-2025-structured-json",
+    listItems: ["Regex", "JSON", "Kaggle"],
   },
   {
-    title: "Classic Pong",
+    title: "Personal Python Library",
     description:
-      "Relive retro gaming with this browser-based implementation, featuring realistic ball physics and built with vanilla tooling.",
-    gitLink: "https://github.com/DevonGifford/Single-Player-Pong-Game",
-    liveLink: "https://devon-pong-game.netlify.app/",
-    listItems: ["JavaScript", "HTML", "CSS", "Netlify"],
+      "Created \"muneeb_nlp\", a Python package that simplifies NLP preprocessing for textual columns.",
+    gitLink: "https://libraries.io/pypi/muneeb_nlp",
+    liveLink: "https://libraries.io/pypi/muneeb_nlp",
+    listItems: ["Pandas", "NLTK", "PYPI"],
   },
   {
-    title: "Ai Toolbox",
+    title: "Image Dataset Builder",
     description:
-      "A suite of Language Model-based AI tools powered by OpenAI, offered as a SaaS solution. Revolutionize your business with advanced AI capabilities.",
-    gitLink: "https://github.com/DevonGifford/my_Python/tree/main/Mini-Projects",
-    liveLink: "https://ai-toolbox-five.vercel.app/",
-    listItems: ["Next", "Stripe", "OpenAI", "Clerk"],
+      "An end-to-end workflow designed to scrape, curate, and package high-quality image datasets.",
+    gitLink: "https://github.com/BeUnMerreHuman/Image-Dataset-Builder",
+    liveLink: "https://github.com/BeUnMerreHuman/Image-Dataset-Builder",
+    listItems: ["Camoufox", "Parquet", "Snakemake"],
   },
   {
-    title: "node-express-mvc-api",
+    title: "Wasooli",
     description:
-      "A learning repository covering a range of concepts including JWT's, MongoDB integration, APIs, web servers and user auth.",
-    gitLink: "https://github.com/DevonGifford/node-express-mvc-api",
-    liveLink: "https://github.com/DevonGifford/node-express-mvc-api",
-    listItems: ["Node", "Express", "MongoDB", "JavaScript"],
-  },
-  {
-    title: "FaceDetection App",
-    description:
-      "A Fullstack PERN app - sign up and upload an image to detect one or multiple human faces, built with the help of ZTM.",
-    gitLink: "https://github.com/DevonGifford/AI-Toolbox",
-    liveLink: "https://devon-facedetection-app.onrender.com/",
-    listItems: ["React", "Node", "Express", "API"],
-  },
-  {
-    title: "Animated NavBar",
-    description:
-      "Interactive & responsive website with UI design focus. Utilized CSS keyframes for animations and code efficiency.",
-    gitLink: "https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects",
-    liveLink: "https://devon-animated-navigation-bar.netlify.app/",
-    listItems: ["JavaScript", "HTML", "CSS", "keyframes"],
-  },
-  {
-    title: "Spotify Clone",
-    description:
-      "A comprehensive Spotify clone that replicates the core functionality, including file upload and authentication.",
-    gitLink: "https://github.com/DevonGifford/Spotify-Clone",
-    liveLink: "https://devon-fullstack-spotify-clone.vercel.app/",
-    listItems: ["Stripe", "SupaBase", "PostgreSQL"],
-  },
-  {
-    title: "Always-On-Top App",
-    description:
-      "Create floating, resizable windows for any screen or app, staying on top. Ideal for coding with YouTube tutorials. Easy and efficient solution.",
-    gitLink: "https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects",
-    liveLink: "https://devon-picture-in-picture-app.netlify.app/",
-    listItems: ["JavaScript", "HTML", "CSS", "Async"],
-  },
-  {
-    title: "Math Sprint Game",
-    description:
-      "Interactive quiz web app testing the user's basic math skills. Initial research into building my capstone DevReady application.",
-    gitLink: "https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects",
-    liveLink: "https://devon-math-sprint-game.netlify.app/",
-    listItems: ["JavaScript", "HTML", "CSS", "Netlify"],
-  },
-  {
-    title: "Bookmark Keeper",
-    description:
-      "A very simple website for saving bookmarks. A learning project exploring dynamic rendering, local storage, and vanilla form validation.",
-    gitLink: "https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects",
-    liveLink: "https://devon-bookmark-app.netlify.app/",
-    listItems: ["JavaScript", "HTML", "CSS", "Netlify"],
-  },
-  {
-    title: "Calculator",
-    description:
-      "A personal victory, overcoming a fear instilled from high school Java class. Simple web-based calculator app built with vanilla tooling.",
-    gitLink: "https://github.com/DevonGifford/my_JavaScript/tree/main/JavaScript_Projects",
-    liveLink: "https://devon-javascript-calculator.netlify.app/",
-    listItems: ["JavaScript", "HTML", "CSS", "Netlify"],
+      "A Flask-based web application that fetches, filters, and displays real-time student data from an external API.",
+    gitLink: "https://github.com/BeUnMerreHuman/Wasooli",
+    liveLink: " https://wasooli.onrender.com",
+    listItems: ["JavaScript", "Flask", "Pandas"],
   },
 ];
 

@@ -1,13 +1,9 @@
 import { StaticImageData } from "next/image";
 
-import flatmateFinderBig from "@/public/assets/images/ProjectPictures/big-images/FlatmateFinder_big.png";
-import clearScoreBig from "@/public/assets/images/ProjectPictures/big-images/ClearScore_big.png";
-import thymiaBig from "@/public/assets/images/ProjectPictures/big-images/Thymia_big.png";
-import devReadyBig from "@/public/assets/images/ProjectPictures/big-images/DevReady_big.png";
-// import devReadySmall from "@/public/assets/images/ProjectPictures/small-images/devready_small.png";
-// import thymiaSmall from "@/public/assets/images/ProjectPictures/small-images/thymia_small.png";
-// import flatmateFinderSmall from "@/public/assets/images/ProjectPictures/small-images/flatmate_small.png";
-// import clearScoreSmall from "@/public/assets/images/ProjectPictures/small-images/clearscore_small.png";
+import BUChatbot from "@/public/assets/images/ProjectPictures/big-images/BUChatbot.png";
+import ViTComparison from "@/public/assets/images/ProjectPictures/big-images/ViTComparison.jpg";
+import NYC from "@/public/assets/images/ProjectPictures/big-images/NYC.png";
+import AnimeDetector from "@/public/assets/images/ProjectPictures/big-images/AnimeDetector.jpg";
 
 export type ProjectLayout = "default" | "reversed";
 
@@ -30,70 +26,67 @@ export type CapstoneEntry = {
 
 const capstoneEntries: CapstoneEntry[] = [
   {
-    title: "Flatmate Finder",
+    title: "BU-Chatbot",
     description:
-      "A real world personal project designed to streamline the search for a flatmate. Through a simple form, applicants submit their details, allowing existing tenants to review them in a Tinder style swipe interface",
+      "The BU Chatbot transforms a static PDF into an interactive AI assistant designed to help students navigate the Bahria University Student Rulebook. This project leverages MongoDB Atlas for vector search, Groq for high-speed LLM inference, and Clerk for secure user authentication.",
     image: {
-      src: flatmateFinderBig,
-      alt: "Flatmate Finder Project Image",
+      src: BUChatbot,
+      alt: "BU-Chatbot Project Image",
       width: 500,
       height: 300,
     },
-    imageUrl: "/assets/images/ProjectPictures/small-images/flatmate_small.png", // Use string path here
-    gitLink: "https://github.com/DevonGifford/FlatmateFinder",
-    liveLink: "https://flatmate-finder.vercel.app/",
-    techStackList: ["Vite", "TypeScript", "ShadCN", "Firebase", "Vitest"],
+    imageUrl: "/assets/images/ProjectPictures/small-images/BChatbot.jpg", 
+    gitLink: "https://github.com/BeUnMerreHuman/BU-Chatbot",
+    liveLink: "https://bu-chatbot-a4c9hkggdrbtbfhs.southeastasia-01.azurewebsites.net/",
+    techStackList: ["FastAPI", "Clerk", "MongoDB", "Groq", "LangChain", "Docker", "AWS"],
     layout: "default",
   },
   {
-    title: "ClearScore Ideaboard",
+    title: "Anime Character Detector",
     description:
-      "A time-constrained frontend assessment for ClearScore. Developed within 6 to 8 hours, it utilizes modern technologies like Tailwind CSS and ShadCN UI Library for rapid development. Prioritized simplicity, accessibility, and thorough testing.",
+      "Developed a zero-shot anime character detection and tracking system capable of recognizing and re-identifying characters without retraining for new classes. The system combines a fine-tuned DEIMv2 detector with a LoRA-adapted DINOv3 vision transformer for feature extraction, using a vector database and similarity search to match previously seen characters across images and videos. Integrated Norfair tracking for consistent identity tracking in video streams and deployed the pipeline with ONNX for efficient inference.",
     image: {
-      src: clearScoreBig,
-      alt: "ClearScore Ideaboard Project Image",
+      src: AnimeDetector,
+      alt: "Anime Detector Project Image",
       width: 500,
       height: 300,
     },
-    imageUrl: "/assets/images/ProjectPictures/small-images/clearscore_small.png", // Use string path here
-    gitLink: "https://github.com/DevonGifford/ClearScore",
-    liveLink: "https://idea-board-murex.vercel.app/",
-    // youtubeLink: "https://idea-board-murex.vercel.app/",
-    techStackList: ["PostgreSQL", "Supabase", "TypeScript", "Tailwind"],
+    imageUrl: "/assets/images/ProjectPictures/small-images/AnimeDetector.jpg", 
+    gitLink: "https://github.com/BeUnMerreHuman/Anime-Character-Re-Identification",
+    liveLink: "https://colab.research.google.com/drive/1DTeRMEg3lb7MMctzIaPw7n3IeXc7j6Di",
+    techStackList: ["DEIMv2", "DINOv3", "Norfair", "LanceDB", "OpenCV", "ONNX", "GoogleColab"],
     layout: "reversed",
   },
   {
-    title: "Thymia 2-back game",
+    title: "NYC Fare Predictor",
     description:
-      "A gamified version of the 2-back task, a cognitive test designed to measure working memory. Users are presented with a sequence of letters and must determine if the current letter matches the one presented two trials before.",
+      "Built a hybrid NYC taxi fare prediction system using 40+ million trip records. Combined data-driven business rules for fixed charges with multiple machine learning models for uncertain fare components such as base fares, tips, and tolls. Designed an explainable prediction pipeline that delivers accurate fare estimates from a minimal set of trip inputs.",
     image: {
-      src: thymiaBig,
-      alt: "Thymia 2-back Game Project Image",
+      src: NYC,
+      alt: "NYC Fare Predictor Project Image",
       width: 500,
       height: 300,
     },
-    imageUrl: "/assets/images/ProjectPictures/small-images/thymia_small.png", // Use string path here
-    gitLink: "https://github.com/DevonGifford/Thymia",
-    liveLink: "https://n-game-technical-assignment.vercel.app/",
-    // youtubeLink: "https://n-game-technical-assignment.vercel.app/",
-    techStackList: ["Next14", "Event-Logger", "Tailwind", "TypeScript", "Jest"],
+    imageUrl: "/assets/images/ProjectPictures/small-images/NYC.jpg", 
+    gitLink: "https://github.com/BeUnMerreHuman/NYC-FarePredictor",
+    liveLink: "https://huggingface.co/spaces/Be-Un-Merre-Human/NYC_Fare_Predictor",
+    techStackList: ["Numpy", "DuckDB", "SKLearn", "XGBoost", "Seaborn", "FastAPI", "HuggingFace"],
     layout: "default",
   },
   {
-    title: "Dev Ready",
+    title: "ViT Comparison",
     description:
-      "An open source fullstack initiative, inspired by ZTM, designed to create an engaging interactive quiz platform for students. The project aims to empower learning through gamification and dynamic features.",
+      "Benchmarked multiple adaptation strategies for DINOv3 to identify 26 One Piece characters from a custom dataset. Evaluated Frozen Features, Linear Probing, Fine-Tuning, LoRA, and LoRA + Supervised Contrastive Learning across different training data sizes. LoRA + SupCon consistently delivered the highest accuracy, reaching 97.7% top-1 accuracy while maintaining strong performance even in low-data scenarios.",
     image: {
-      src: devReadyBig,
-      alt: "Dev Ready Project Image",
+      src: ViTComparison,
+      alt: "ViT Comparison Project Image",
       width: 500,
       height: 300,
     },
-    imageUrl: "/assets/images/ProjectPictures/small-images/devready_small.png", // Use string path here
-    gitLink: "https://github.com/DevonGifford/DevReady",
-    liveLink: "https://ztm-ready-portfolio-project.vercel.app/",
-    // youtubeLink: "https://ztm-ready-portfolio-project.vercel.app/",
-    techStackList: ["Next14", "TypeScript", "Tailwind", "Jest", "PlayWright"],
+    imageUrl: "/assets/images/ProjectPictures/small-images/ViTComparison.jpg", 
+    gitLink: "https://www.kaggle.com/code/muneeburrehman98/dino-v3-comparison",
+    liveLink: "https://www.linkedin.com/posts/muneeb-ur-rehman-siddiqui-618a6336a_deeplearning-computervision-lora-ugcPost-7443182829955379200-dy66/",
+    techStackList: ["UMAP", "FAISS", "PEFT", "Transformers", "Pytorch", "MLflow", "Kaggle"],
     layout: "reversed",
   },
 ];

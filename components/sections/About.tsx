@@ -3,22 +3,36 @@
 import React from "react";
 import Image from "next/image";
 import {
+  logo,
   profileImgCircle,
-  ReactL,
-  Next,
-  Redux,
-  JavaScriptL,
-  TypeScript,
-  Python,
+  Appsheet,
+  AWS,
+  Bash,
   Docker,
-  NodeJS,
-  Jest,
+  DuckDB,
+  Ethereum,
+  FastAPI,
+  GithubActions,
+  HuggingFace,
+  Kaggle,
+  Kubernetes,
+  Langchain,
+  Linux,
+  MLflow,
+  MongoDB,
+  OpenCV,
+  Parquet,
   Playwright,
-  Tailwind,
-  Vite,
-  Remix,
-  Neovim,
-  Electron,
+  PowerBI,
+  Python,
+  Pytorch,
+  ScikitLearn,
+  Snakemake,
+  SQLserver,
+  Tensorflow,
+  Unsloth,
+  Langgraph,
+  n8n,
 } from "@/public/assets";
 import SectionTitle from "../common/SectionTitle";
 
@@ -49,47 +63,43 @@ const skillGroups = [
   {
     title: "Hard Skills",
     skills: [
-      { src: TypeScript, alt: "TypeScript", title: "TypeScript" },
-      {
-        src: JavaScriptL,
-        alt: "JavaScript",
-        title: "JavaScript",
-        className: "rounded-full w-12 max-md:w-6",
-      },
-
-      { src: ReactL, alt: "React", title: "React", className: "w-14 max-md:w-7" },
-      { src: Next, alt: "NextJS", title: "NextJS" },
-      { src: Vite, alt: "Vite", title: "Vite", className: "w-14 max-md:w-6" },
-      { src: Jest, alt: "Jest", title: "Jest", className: "w-10 max-md:w-6 rounded-none" },
-      {
-        src: Playwright,
-        alt: "PlayWright",
-        title: "PlayWright",
-        className: "w-16 md:translate-x-1 max-md:w-6",
-      },
-      { src: Tailwind, alt: "Tailwind", title: "Tailwind", className: "w-12 max-md:w-8" },
-      { src: Docker, alt: "Docker", title: "Docker", className: "w-16 max-md:w-8" },
-      { src: Redux, alt: "Redux", title: "Redux", className: "w-10 max-md:w-6 rounded-none" },
-      { src: NodeJS, alt: "NodeJS", title: "NodeJS", className: "w-14 max-md:w-6" },
-      { src: Python, alt: "Python", title: "Python", className: "w-14 max-md:w-7" },
+      { src: Linux, alt: "Linux", title: "Linux", className: "w-11 max-md:w-6 rounded-none" },
+      { src: Python, alt: "Python", title: "Python", className: "w-12 max-md:w-6" },
+      { src: Bash, alt: "Bash", title: "Bash", className: "w-10 max-md:w-6" },
+      { src: SQLserver, alt: "SQL Server", title: "SQL Server", className: "w-12 max-md:w-6" },
+      { src: HuggingFace, alt: "HuggingFace", title: "HuggingFace", className: "w-12 max-md:w-6" },
+      { src: ScikitLearn, alt: "Scikit-Learn", title: "Scikit-Learn", className: "w-12 max-md:w-6 rounded-none" },
+      { src: Pytorch, alt: "Pytorch", title: "Pytorch" },
+      { src: Tensorflow, alt: "Tensorflow", title: "Tensorflow", className: "w-11 max-md:w-6" },
+      { src: OpenCV, alt: "OpenCV", title: "OpenCV", className: "w-10 max-md:w-6" },
+      { src: Unsloth, alt: "Unsloth", title: "Unsloth", className: "w-12 max-md:w-6 rounded-full" },
+      { src: MLflow, alt: "MLflow", title: "MLflow", className: "w-12 max-md:w-6 rounded-full" },
+      { src: Langchain, alt: "Langchain", title: "Langchain", className: "w-12 max-md:w-6 rounded-full" },
+      { src: FastAPI, alt: "FastAPI", title: "FastAPI", className: "w-12 max-md:w-6" },
+      { src: DuckDB, alt: "DuckDB", title: "DuckDB", className: "w-12 max-md:w-6 rounded-full" },
+      { src: MongoDB, alt: "MongoDB", title: "MongoDB", className: "w-11 max-md:w-6" },
+      { src: Snakemake, alt: "Snakemake", title: "Snakemake", className: "w-12 max-md:w-6" },
+      { src: Playwright, alt: "PlayWright", title: "PlayWright", className: "w-12 max-md:w-6" },
+      { src: Docker, alt: "Docker", title: "Docker", className: "w-12 max-md:w-6" },
+      { src: AWS, alt: "AWS", title: "AWS", className: "w-12 max-md:w-6" },
+      { src: PowerBI, alt: "PowerBI", title: "PowerBI", className: "w-12 max-md:w-6 rounded-none" },
     ],
   },
   {
     title: "Currently Exploring",
     skills: [
-      { src: Remix, alt: "Remix", title: "Remix", className: "w-14 max-md:w-6" },
-      { src: Neovim, alt: "Neovim", title: "Neovim", className: "w-14 max-md:w-6" },
-      { src: Electron, alt: "Electron", title: "Electron", className: "w-14 max-md:w-6" },
+      { src: Langgraph, alt: "Langgraph", title: "Langgraph", className: "w-12 max-md:w-6 rounded-full" },
+      { src: n8n, alt: "n8n", title: "n8n", className: "w-12 max-md:w-6" },
+      { src: Kubernetes, alt: "Kubernetes", title: "Kubernetes", className: "w-12 max-md:w-6" },
+      { src: GithubActions, alt: "GithubActions", title: "GithubActions", className: "w-12 max-md:w-6" },
+      { src: Ethereum, alt: "Ethereum", title: "Ethereum", className: "w-12 max-md:w-6" },
     ],
   },
 ];
 
 const About = () => {
   return (
-    <section
-      id="about"
-      className="mx-auto flex h-screen max-w-containerSmall flex-col justify-center gap-8 py-96 mdl:px-10 lgl:py-32"
-    >
+    <section id="about" className="mx-auto flex min-h-screen max-w-containerSmall flex-col justify-center gap-8 py-24 mdl:px-10 lgl:py-32">
       <div className="flex items-center gap-10 pt-20 sml:pt-5">
         <SectionTitle titleNumber="0.1" titleName="About me" />
       </div>
@@ -110,27 +120,40 @@ const About = () => {
               </div>
             </div>
             <p>
-              Hello there, I&apos;m a <span className="text-textGreen">fullstack developer</span>.
-              Originally from South Africa, holding British citizenship and now currently based in
-              Madrid, Spain.
-              <br />
-              <br />I have <span className="text-textGreen">7+ years </span> of experience in the
-              tech industry, including stints at various startups. I specialize in developing
-              responsive and accessible web applications using{" "}
-              <span className="text-textGreen">JavaScript & React</span>.
-              <br />
-              <br />
-              Recently, I had the incredible opportunity to join a{" "}
-              <span className="text-textGreen">leading FAANG</span> company as a Quality Engineer,
-              and later advanced to the role of Team Lead. Immersing myself in big-tech best
-              practices, with a specific focus on{" "}
-              <span className="text-textGreen">E2E & integration testing.</span>
-              <br />
-              <br />
-              <em>Currently leading a team and project rewriting a large-scale legacy system.</em>
-              <br />
-              <br />
-            </p>
+  Hello, I'm an <span className="text-textGreen"> Artificial Intelligence Engineer </span>
+  based in Karachi, Pakistan.
+
+  <br />
+  <br />
+
+  I've always been fascinated by complex systems, whether they exist in technology,
+  nature, or the fictional worlds. The stories that resonate with me most are those 
+  that leave no stone unturned, where every detail, connection, and consequence matters.
+
+  <br />
+  <br />
+
+  That same curiosity is what drew me toward Artificial Intelligence. I enjoy exploring
+  how data, algorithms, and software come together to create systems that are greater
+  than the sum of their parts. Rather than simply using existing tools, I'm most
+  interested in understanding how they work and how they can be pushed further.
+
+  <br />
+  <br />
+
+  I am particularly drawn to projects that involve experimentation, research, and
+  discovering new approaches to difficult problems. Whether it's Computer Vision,
+  Data Science, or emerging developments in AI, I enjoy learning how ideas evolve
+  and where the field is heading next.
+
+  <br />
+  <br />
+
+  <em>
+    I remain optimistic about the future of AI and the opportunities it creates,
+    believing that today's research can become tomorrow's everyday reality.
+  </em>
+</p>
           </div>
         </div>
 

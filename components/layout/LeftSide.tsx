@@ -3,7 +3,8 @@
 import React from "react";
 import { SiGithub } from "react-icons/si";
 import { BsLinkedin } from "react-icons/bs";
-import { TiSocialTwitter } from "react-icons/ti";
+import { SiGmail } from "react-icons/si";
+import { SiUpwork } from "react-icons/si";
 import { motion } from "framer-motion";
 import SocialIcon from "../common/SocialIcon";
 
@@ -17,22 +18,28 @@ const LeftSide = () => {
         className="flex flex-col gap-4"
       >
         <SocialIcon
-          href="https://github.com/DevonGifford"
+          href="https://github.com/BeUnMerreHuman"
           externalClassName="bg-hoverColor text-textLight"
         >
           <SiGithub />
         </SocialIcon>
         <SocialIcon
-          href="https://www.linkedin.com/in/dbgifford/"
+          href="https://www.linkedin.com/in/muneeb-ur-rehman-siddiqui-618a6336a/"
           externalClassName="bg-hoverColor text-textLight"
         >
           <BsLinkedin />
         </SocialIcon>
         <SocialIcon
-          href="https://twitter.com/devon_the_dev"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=muneeburrehmansiddiqui98@gmail.com"
           externalClassName="bg-hoverColor text-textLight"
         >
-          <TiSocialTwitter />
+          <SiGmail />
+        </SocialIcon>
+        <SocialIcon
+          href="https://www.upwork.com/freelancers/~0127283a31ab6dd942"
+          externalClassName="bg-hoverColor text-textLight"
+        >
+          <SiUpwork />
         </SocialIcon>
       </motion.div>
       <div className="h-32 w-[2px] bg-textDark"></div>
