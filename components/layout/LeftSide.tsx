@@ -14,7 +14,7 @@ const LeftSide = () => {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 1.5, delay: 3 }}
+        transition={{ duration: 1.0, delay: 2.0 }}
         className="flex flex-col gap-4"
       >
         <SocialIcon

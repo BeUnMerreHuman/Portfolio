@@ -5,6 +5,7 @@ import About from "@/components/sections/About";
 import Experience from "@/components/sections/Experience";
 import Projects from "@/components/sections/Projects";
 import Certifications from "@/components/sections/Certifications";
+import Education from "@/components/sections/Education";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/layout/Footer";
 import RightSide from "@/components/layout/RightSide";
@@ -34,6 +35,7 @@ export default function HomePage() {
           <Experience />
           <Projects />
           <Certifications />
+          <Education />
           <Contact />
           <Footer />
         </div>

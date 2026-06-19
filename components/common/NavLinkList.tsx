@@ -9,7 +9,8 @@ const navItems = [
   { id: "Experience", label: "Experience", index: "02." },
   { id: "Projects", label: "Projects", index: "03." },
   { id: "Certifications", label: "Certifications", index: "04." },
-  { id: "contact", label: "Contact", index: "05." },
+  { id: "Education", label: "Education", index: "05." },
+  { id: "contact", label: "Contact", index: "06." },
 ];
 
 export default function NavLinkList({
