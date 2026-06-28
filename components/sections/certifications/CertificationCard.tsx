@@ -35,11 +35,12 @@ const CertificationCard = ({
       {/* 2. Provider Logo & Name */}
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="flex h-8 w-8 items-center justify-center overflow-hidden rounded-full bg-white p-1">
+          {/* FIX: Removed p-1 from the div, changed to object-cover on the Image */}
+          <div className="flex h-8 w-8 items-center justify-center overflow-hidden rounded-full bg-white">
             <Image
               src={providerLogo}
               alt={provider}
-              className="h-full w-full object-contain"
+              className="h-full w-full object-cover" 
             />
           </div>
           <p className="font-titleFont text-sm tracking-wide text-textGreen">

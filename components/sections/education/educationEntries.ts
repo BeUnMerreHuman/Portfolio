@@ -67,11 +67,11 @@ const educationEntries: EducationEntryData[] = [
   },
   {
     key: "jauherSchool",
-    label: "Jauher Lyceun",
+    label: "Jauher Lyceum",
     sub: "Oxford Curriculum",
     componentProps: {
       title: "High School, Oxford Curriculum",
-      company: "Jauher Lyceun High School",
+      company: "Jauher Lyceum High School",
       dates: "Mar 2008 - Mar 2019",
       intro: "Mianwali, Punjab | Grade: A+",
       bullets: [
