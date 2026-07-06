@@ -37,8 +37,8 @@ const capstoneEntries: CapstoneEntry[] = [
     },
     imageUrl: "/assets/images/ProjectPictures/small-images/BChatbot.jpg", 
     gitLink: "https://github.com/BeUnMerreHuman/BU-Chatbot",
-    liveLink: "https://bu-chatbot-a4c9hkggdrbtbfhs.southeastasia-01.azurewebsites.net/",
-    techStackList: ["FastAPI", "Clerk", "MongoDB", "Groq", "LangChain", "Docker", "AWS"],
+    liveLink: "https://bu-chatbot-teal.vercel.app/",
+    techStackList: ["FastAPI", "Clerk", "MongoDB", "Groq", "LangChain", "Docker", "Azure"],
     layout: "default",
   },
   {
@@ -54,7 +54,7 @@ const capstoneEntries: CapstoneEntry[] = [
     imageUrl: "/assets/images/ProjectPictures/small-images/AnimeDetector.jpg", 
     gitLink: "https://github.com/BeUnMerreHuman/Anime-Character-Re-Identification",
     liveLink: "https://colab.research.google.com/drive/1DTeRMEg3lb7MMctzIaPw7n3IeXc7j6Di",
-    techStackList: ["DEIMv2", "DINOv3", "Norfair", "LanceDB", "OpenCV", "ONNX", "GoogleColab"],
+    techStackList: ["DEIMv2", "DINOv3", "Numpy", "LanceDB", "OpenCV", "ONNX", "GoogleColab"],
     layout: "reversed",
   },
   {
