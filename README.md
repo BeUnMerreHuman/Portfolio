@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://beunmerrehuman.vercel.app/">🌐 Live Portfolio</a>
+  <a href="https://www.muneeburrehman.dev/">🌐 Live Portfolio</a>
 </p>
 
 ---
@@ -34,7 +34,7 @@ Built using modern web technologies and deployed on Vercel.
 ## Live Website
 
 **Portfolio:**
-👉 https://beunmerrehuman.vercel.app/
+👉 https://www.muneeburrehman.dev/
 
 ## Acknowledgements
 
