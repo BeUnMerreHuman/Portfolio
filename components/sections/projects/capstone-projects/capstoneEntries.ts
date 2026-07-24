@@ -28,7 +28,7 @@ const capstoneEntries: CapstoneEntry[] = [
   {
     title: "BU-Chatbot",
     description:
-      "The BU Chatbot transforms a static PDF into an interactive AI assistant designed to help students navigate the Bahria University Student Rulebook. This project leverages MongoDB Atlas for vector search, Groq for high-speed LLM inference, and Clerk for secure user authentication.",
+      "Developed a RAG-based AI chatbot for the Bahria University Student Rulebook by transforming a static PDF into an interactive assistant using MongoDB Atlas Vector Search, LangChain, and Groq LLMs. Implemented conversational memory with LangChain and secure authentication with Clerk. Containerized the backend with Docker and deployed it on Azure, while hosting the frontend on Vercel, reducing response latency from 55 seconds to 5 seconds.",
     image: {
       src: BUChatbot,
       alt: "BU-Chatbot Project Image",
@@ -44,7 +44,7 @@ const capstoneEntries: CapstoneEntry[] = [
   {
     title: "Anime Character Detector",
     description:
-      "Developed a zero-shot anime character detection and tracking system capable of recognizing and re-identifying characters without retraining for new classes. The system combines a fine-tuned DEIMv2 detector with a LoRA-adapted DINOv3 vision transformer for feature extraction, using a vector database and similarity search to match previously seen characters across images and videos. Integrated Norfair tracking for consistent identity tracking in video streams and deployed the pipeline with ONNX for efficient inference.",
+      "Developed an end-to-end zero-shot anime character detection and tracking pipeline, covering dataset creation, model fine-tuning, optimization, and deployment. Combined a fine-tuned DEIMv2 object detector with a LoRA-adapted DINOv3 Vision Transformer for robust visual feature extraction and character re-identification without retraining for new classes. Integrated vector database-based similarity search for matching characters across images and videos, and exported the pipeline to ONNX for optimized inference. Achieved near real-time performance, processing 1 second of video content in approximately 2.5 seconds using GPU acceleration.",
     image: {
       src: AnimeDetector,
       alt: "Anime Detector Project Image",
@@ -60,7 +60,7 @@ const capstoneEntries: CapstoneEntry[] = [
   {
     title: "NYC Fare Predictor",
     description:
-      "Built a hybrid NYC taxi fare prediction system using 40+ million trip records. Combined data-driven business rules for fixed charges with multiple machine learning models for uncertain fare components such as base fares, tips, and tolls. Designed an explainable prediction pipeline that delivers accurate fare estimates from a minimal set of trip inputs.",
+      "Developed a hybrid NYC taxi fare prediction system using over 40 million trip records. Built an ensemble of five machine learning models to estimate variable fare components, combined with data-driven business rules for fixed charges derived from extensive exploratory data analysis (EDA). Achieved an average prediction error of 8.5% and deployed the application on Hugging Face Spaces with an optimized inference pipeline for fast CPU performance.",
     image: {
       src: NYC,
       alt: "NYC Fare Predictor Project Image",
@@ -76,7 +76,7 @@ const capstoneEntries: CapstoneEntry[] = [
   {
     title: "ViT Comparison",
     description:
-      "Benchmarked multiple adaptation strategies for DINOv3 to identify 26 One Piece characters from a custom dataset. Evaluated Frozen Features, Linear Probing, Fine-Tuning, LoRA, and LoRA + Supervised Contrastive Learning across different training data sizes. LoRA + SupCon consistently delivered the highest accuracy, reaching 97.7% top-1 accuracy while maintaining strong performance even in low-data scenarios.",
+      "Conducted a comparative study of parameter-efficient fine-tuning techniques on DINOv3-ViT-L/16 (300M parameters) for few-shot fine-grained image classification using a custom dataset of 1,292 images across 26 classes. Benchmarked frozen retrieval, linear probing, partial fine-tuning, LoRA, and LoRA with Supervised Contrastive Learning (SupCon), where LoRA consistently outperformed full fine-tuning at every data stage (10%-80%), reaching 97.8% Top-1 accuracy. Implemented memory-efficient training with gradient checkpointing and optimized batch scheduling to overcome GPU memory limitations.",
     image: {
       src: ViTComparison,
       alt: "ViT Comparison Project Image",

@@ -58,7 +58,7 @@ const Banner: React.FC = () => {
         <p>
           I am an Artificial Intelligence Engineer with hands-on experience building and 
           deploying end-to-end AI applications across Computer Vision, Natural Language Processing, 
-          and Retrieval-Augmented Generation (RAG).
+          and Big Data Analysis.
         </p>
         <p>
           Leveraging a strong foundation in designing data pipelines and fine-tuning machine 
