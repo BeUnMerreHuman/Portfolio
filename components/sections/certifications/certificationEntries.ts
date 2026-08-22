@@ -12,6 +12,8 @@ import Blockchain from "@/public/assets/images/Certifications/Blockchain.jpg";
 import MCP from "@/public/assets/images/Certifications/MCP.jpg";
 import DeepLearning from "@/public/assets/images/Certifications/DeepLearning.jpeg";
 import MachineLearning from "@/public/assets/images/Certifications/MachineLearning.jpeg";
+import AIhealthcare from "@/public/assets/images/Certifications/AIinHealthcare.png";
+import AIEthics from "@/public/assets/images/Certifications/AIethics.png";
 
 export type CertificationEntry = {
   title: string;
@@ -24,12 +26,12 @@ export type CertificationEntry = {
 
 const certificationEntries: CertificationEntry[] = [
   {
-    title: "Blockchain Specialization",
-    provider: "University at Buffalo",
-    providerLogo: UB,
-    certImage: Blockchain,
-    link: "https://coursera.org/share/b361c7c63238ccb94e3b3f96426df39d",
-    skills: ["Cryptographic Protocols", "Distributed Computing", "Smart Contracts", "Decentralized Applications"],
+    title: "Google Advanced Data Analytics",
+    provider: "Google",
+    providerLogo: googleLogo,
+    certImage: DataAnalytics,
+    link: "https://coursera.org/share/750dad86259a35f4bcb79f39ffb09d55",
+    skills: ["Advanced Analytics", "Probability & Statistics", "Data Visualization", "Data-Driven Decision-Making"],
   },
   {
     title: "Model Context Protocol: Advanced Topics",
@@ -48,14 +50,6 @@ const certificationEntries: CertificationEntry[] = [
     skills: ["Data Preprocessing", "Model Optimization","Model Deployment", "Devops Tools"],
   },
   {
-    title: "Google Advanced Data Analytics",
-    provider: "Google",
-    providerLogo: googleLogo,
-    certImage: DataAnalytics,
-    link: "https://coursera.org/share/750dad86259a35f4bcb79f39ffb09d55",
-    skills: ["Advanced Analytics", "Probability & Statistics", "Data Visualization", "Data-Driven Decision-Making"],
-  },
-  {
     title: "Deep Learning with Keras and Tensorflow",
     provider: "IBM",
     providerLogo: ibmLogo,
@@ -70,6 +64,30 @@ const certificationEntries: CertificationEntry[] = [
     certImage: MachineLearning,
     link: "https://coursera.org/share/689e0cba69bb8bc553f9a150bf8a6c92",
     skills: ["Scikit Learn" ,"Dimensionality Reduction", "Supervised Learning", "Model Evaluation"],
+  },
+  {
+    title: "AI in Healthcare",
+    provider: "IBM",
+    providerLogo: ibmLogo,
+    certImage: AIhealthcare,
+    link: "https://skills.yourlearning.ibm.com/activity/PLAN-E7B5ACC9E97C",
+    skills: ["Healthcare Applications", "Ethical Considerations", "Patient Data Privacy", "Clinical Decision-Making"],
+  },
+  {
+    title: "Decoding Responsible AI: Upholding Pillars of Trust",
+    provider: "IBM",
+    providerLogo: ibmLogo,
+    certImage: AIEthics,
+    link: "https://skills.yourlearning.ibm.com/activity/ALM-COURSE_4068808",
+    skills: ["Ethical Frameworks", "Bias and Fairness", "Transparency", "Accountability"],
+  },
+  {
+    title: "Blockchain Specialization",
+    provider: "University at Buffalo",
+    providerLogo: UB,
+    certImage: Blockchain,
+    link: "https://coursera.org/share/b361c7c63238ccb94e3b3f96426df39d",
+    skills: ["Cryptographic Protocols", "Distributed Computing", "Smart Contracts", "Decentralized Applications"],
   },
 ];
 
