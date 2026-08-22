@@ -13,7 +13,7 @@ import MCP from "@/public/assets/images/Certifications/MCP.jpg";
 import DeepLearning from "@/public/assets/images/Certifications/DeepLearning.jpeg";
 import MachineLearning from "@/public/assets/images/Certifications/MachineLearning.jpeg";
 import AIhealthcare from "@/public/assets/images/Certifications/AIinHealthcare.png";
-import AIEthics from "@/public/assets/images/Certifications/AIethics.png";
+import AIEthics from "@/public/assets/images/Certifications/AIEthics.png";
 
 export type CertificationEntry = {
   title: string;
