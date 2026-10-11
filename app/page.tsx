@@ -14,10 +14,39 @@ import type { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-  title: "Muneeb Ur Rehman Siddiqui",
+  metadataBase: new URL("https://www.muneeburrehman.dev"),
+  title: {
+    default: "Muneeb Ur Rehman Siddiqui | AI Engineer",
+    template: "%s | Muneeb Ur Rehman Siddiqui",
+  },
   description: "AI Engineer portfolio showcasing projects and experience.",
+  applicationName: "Muneeb Ur Rehman Portfolio",
+  authors: [{ name: "Muneeb Ur Rehman Siddiqui", url: "https://www.muneeburrehman.dev" }],
+  creator: "Muneeb Ur Rehman Siddiqui",
+  publisher: "Muneeb Ur Rehman Siddiqui",
+  keywords: [
+    "Artificial Intelligence Engineer",
+    "Computer Vision",
+    "Machine Learning",
+    "Deep Learning",
+    "Python",
+    "PyTorch",
+    "Edge AI",
+    "Karachi",
+    "Muneeb Ur Rehman Siddiqui",
+    "Muneeb Ur Rehman",
+  ],
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      {
+        url: "/favicon.svg",
+        type: "image/svg+xml",
+      },
+      {
+        url: "/favicon.ico",
+        sizes: "any", 
+      },
+    ],
   },
 };
 
